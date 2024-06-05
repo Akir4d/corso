@@ -18,6 +18,7 @@ int main(){
     } else {
         printf("\nNon posso dividere per zero\n");
     }
+    
     if (denominatore > 5) printf("\nil denominatore '%f' e' maggiore di 5\n", denominatore);
     if (denominatore == numeratore) printf("\nI valori sono uguali\n");
     if (denominatore != numeratore) printf("\nI valori non sono uguali\n");
