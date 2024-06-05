@@ -4,7 +4,7 @@ int main() {
 
     int primo_numero;
     int secondo_numero;
-    int somma;
+    //int somma; //commentato ora
 
     printf("Inserisci un numero:\n");
     scanf("%d", &primo_numero);
