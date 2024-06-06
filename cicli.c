@@ -15,6 +15,6 @@ int main(){
         r = r + x;
         x++;
     }
-    printf("\n Somma 1-100=%d", r);
+    printf("\nSomma 1-100=%d", r);
     return 0;
 }
